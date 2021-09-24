@@ -1,8 +1,11 @@
-.. _thread-safety:
+***********
+Portability
+***********
 
-*************
+.. _portability-thread-safety:
+
 Thread safety
-*************
+-------------
 
 Jansson as a library is thread safe and has no mutable global state.
 The only exceptions are the hash function seed and memory allocation
@@ -61,7 +64,7 @@ program startup. See :ref:`apiref-custom-memory-allocation`.
 
 
 Locale
-======
+------
 
 Jansson works fine under any locale.
 

@@ -63,7 +63,7 @@ static const char *strip(char *str) {
 }
 
 static char *loadfile(FILE *file) {
-    size_t fsize, ret;
+    long fsize, ret;
     char *buf;
 
     fseek(file, 0, SEEK_END);
